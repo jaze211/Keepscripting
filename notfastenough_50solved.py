@@ -178,7 +178,6 @@ class BombSolver:
 
     def solve_keypads(self, d):
         syms = d['symbols']
-        # Dùng set intersection để tìm nhanh
         s_set = set(syms)
         for col in KEYPAD_COLS:
             # Đếm số phần tử trùng
